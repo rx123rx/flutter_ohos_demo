@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const WebPage(
+      home: const JsCallDartPage(
         url:
             'https://static.hnltcw.com/game-box/zml-web-mobile/web-mobile/index.html',
       ),

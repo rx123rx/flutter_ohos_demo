@@ -35,14 +35,21 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  dsbridge_flutter:
+    path: ../dsbridge_flutter
   webview_flutter:
     git:
       url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-      path: "packages/webview_flutter-v4.4.4/webview_flutter"
+      path: "packages/webview_flutter/webview_flutter"
   webview_flutter_platform_interface:
     git:
       url: "https://gitee.com/openharmony-sig/flutter_packages.git"
-      path: "packages/webview_flutter_platform_interface-v2.10.0/webview_flutter_platform_interface"
+      path: "packages/webview_flutter/webview_flutter_platform_interface"
+  webview_flutter_android:
+    git:
+      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
+      path: "packages/webview_flutter/webview_flutter_android"
+  event_bus: ^2.0.1
 
 dev_dependencies:
   flutter_test:
